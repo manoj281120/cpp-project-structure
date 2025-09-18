@@ -10,7 +10,7 @@ jobs:
       - name: installing cmake
         run: |
           sudo apt-get update
-          sudo aptget install -y cmake g++
+          sudo apt-get install -y cmake g++
           mkdir build
           cd build
           cmake ..
